@@ -30,4 +30,5 @@ print("Suma (1 + 7j) + (4 + 6j) ->", z1+z2)
 print("Resta (1 + 7j) - (4 + 6j) ->",z1-z2)
 print("Multiplicacion (1 + 7j) * (4 + 6j) ->",z1*z2)
 print("Division (1 + 7j) / (4 + 6j) ->",z1/z2)
+print("Modulo de un numero complejo: ->",abs(z1))
 
