@@ -12,3 +12,5 @@ print(texto)
 texto2 = "Hola "
 
 print(texto2 * 5)
+
+print("Hola " * 5)

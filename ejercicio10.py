@@ -50,3 +50,30 @@ primeraParte = "Esto es la primera parte del string " # Recordar colocar un espa
 segundaParte = "- Esto es la segunda parte del string"
 print(primeraParte + segundaParte)
 
+""" 
+    La funcion  .format() permite insertar variables dentro de un string
+"""
+
+nombre= "Daniel"
+cantidad_de_gatos = 3
+
+print("Me llamo {} y tengo {} gatos" .format(nombre, cantidad_de_gatos))
+
+""" 
+    Para acceder a un caracter de un string se usa la notacion de corchetes []
+    
+"""
+
+caracter = "Hola Mundo"
+print(caracter[5])
+
+print(caracter[-1]) # Imprime el ultimo caracter del string
+print(caracter[0:4]) # Imprime los caracteres desde la posicion 0 hasta la posicion 5
+print(caracter[-5]) # Imprime el quinto caracter desde el final del string
+print(caracter[0:10:2]) # Imprime los caracteres desde la posicion 0 hasta la posicion 10 saltando de 2 en 2
+print(caracter[:4]) # Imprime los caracteres desde la posicion 0 hasta la posicion 4
+print(caracter[4:]) # Imprime los caracteres desde la posicion 4 hasta el final del string
+print(caracter[-10:-1]) # Imprime los caracteres desde la posicion -10 hasta la posicion -1
+print(caracter[:-4]) # Imprime los caracteres desde la posicion 0 hasta la posicion -4
+print(caracter[-4:]) # Imprime los caracteres desde la posicion -4 hasta el final del string
+
