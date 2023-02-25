@@ -8,3 +8,5 @@ texto = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 
 if " " in texto:
     print("EL Texto Contine " , texto.count(" ") , " espacios")
+else:
+    print("El texto no contiene espacios.")
