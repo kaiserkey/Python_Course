@@ -11,4 +11,5 @@ palabra = input("Ingrese una palabra perteneciente al texto anterior: ")
 if(texto.find(palabra)>=0):
     print("La palabra \"" + palabra + "\" se encuentra en el texto")
     print("El texto sin la palabra " + palabra + " es: " + texto.replace(palabra, "").strip())
-
+else:
+    print("La palabra \"" + palabra + "\" no se encuentra en el texto")
