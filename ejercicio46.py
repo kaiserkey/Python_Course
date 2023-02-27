@@ -11,10 +11,20 @@ print(lista_de_numeros)
 lista_de_numeros.append(6)
 print(lista_de_numeros)
 
+#1.1 insert() - Esta funcion inserta un elemento en la lista en la posicion elegida
+print(lista_de_numeros)
+lista_de_numeros.insert(0, 0)
+print(lista_de_numeros)
+
 #2.	extend() - Esta función se utiliza para agregar una lista a la lista actual.
 print(lista_de_colores)
 lista_de_colores.extend(["violeta", "naranja", "rojo"])
 print(lista_de_colores)
+
+#2.1 se puede concatenar listas con el operador +
+print(lista_de_colores)
+lista_concatenada = lista_de_colores + lista_de_palabras
+print(lista_concatenada)
 
 #3.	remove() - Esta función se utiliza para eliminar un elemento de la lista.
 print(lista_de_palabras)
@@ -45,3 +55,7 @@ print(lista_de_colores)
 #9.	copy() - Esta función se utiliza para hacer una copia de la lista.
 lista_de_colores_copy = lista_de_colores.copy()
 print(lista_de_colores_copy)
+
+#10. la repeticion de listas se puede hacer con el operador *
+print(lista_de_colores * 5)
+

@@ -46,6 +46,10 @@ print(lista_heterogenea)
 for elemento in lista_de_colores:
     print(elemento)
     
+# usando el ciclo for con la funcion range()
+for indice in range(len(lista_de_colores)):
+    print(lista_de_colores[indice])
+    
 # usando la funcion enumerate()
 for indice, elemento in enumerate(lista_de_palabras):
     print(f"Indice -> {indice} - Elemento -> {elemento}")
@@ -53,3 +57,11 @@ for indice, elemento in enumerate(lista_de_palabras):
 # usando la funcion list.index()
 for indice in range(len(lista_de_numeros)):
     print(f"Indice -> {lista_de_numeros.index(indice+1)} - Elemento -> {lista_de_numeros[indice]}")
+
+# para mostrar listas anidadas se usa el metodo type() junto con el ciclo for anidado 
+lista_anidada = [lista_de_colores, lista_de_palabras, lista_heterogenea]
+
+for lista in lista_anidada:
+    if type(lista) is list:
+        for elemento in lista:
+            print(elemento)
