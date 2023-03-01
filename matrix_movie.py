@@ -1,11 +1,8 @@
-
-
 import time, os
-
-
 
 text = "*****************************************************"
 text_space = " "
+
 os.system("mpg123 sound.mp3")
 print(f"\n\n{text_space*30}\033[1;32mMATRIX\033[0m".center(45))
 time.sleep(2)
