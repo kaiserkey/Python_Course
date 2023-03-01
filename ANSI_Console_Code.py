@@ -14,7 +14,9 @@
     print('\033[32mEsta línea se imprime en verde\033[0m') 
     print('\033[33mEsta línea se imprime en amarillo\033[0m') 
 
-    EL formasto es el siguiente:
+    Un código de formato lo forma el carácter Escape seguido por tres números enteros separados por un punto y coma 
+    (;): el primero de estos números (un valor de 0 a 7) establece el estilo del texto (negrita, subrayado, etc); 
+    el segundo número (de 30 a 37) fija el color del texto y el último número (de 40 a 47) el color del fondo:
     
     \033[cod_formato;cod_color_texto;cod_color_fondom
     Codigo de formato:
@@ -28,6 +30,7 @@
     Oculto      =   '6'
     Tachado     =   '7'
     RESET_ALL   = '\033[0m'
+    (*) Hay que tener presente que algunos estilos no están soportados por todas las consolas.
     
     Los códigos de color para el texto son los siguientes:
     BLACK   = '\033[30m'
@@ -74,3 +77,24 @@ print("\033[1;36;45mEsta línea se imprime en cyan y negrita con fondo magenta\0
 print("\033[1;37;46mEsta línea se imprime en blanco y negrita con fondo cyan\033[0m")
 print("\033[1;38;47mEsta línea se imprime en gris y negrita con fondo blanco\033[0m")
 print("\033[1;39;48mEsta línea se imprime en gris y negrita con fondo gris\033[0m")
+
+
+""" 
+    A continuación, un ejemplo que construye una tabla con todos los formatos posibles, 
+    recorriendo y cambiando estilos y colores:
+"""
+print()
+
+def construye_tabla_formatos():
+    for estilo in range(8):
+        for colortexto in range(30,38):
+            cad_cod = ''
+            for colorfondo in range(40,48): 
+                fmto = ';'.join([str(estilo), 
+                                str(colortexto),
+                                str(colorfondo)]) 
+                cad_cod+="\033["+fmto+"m "+fmto+" \033[0m" 
+            print(cad_cod)
+        print('\n')
+
+construye_tabla_formatos()
