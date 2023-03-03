@@ -52,9 +52,9 @@ for i in range(len(E_like_M)):
 print()
 
 # para saber las dimenciones de una matriz
-print(M.shape)
+print(M.shape, "filas y columnas")
 
 # para saber el tipo de dato de una matriz
-print(M.dtype)
+print(M.dtype, "tipo de dato")
 
 # 
