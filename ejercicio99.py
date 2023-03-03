@@ -1,5 +1,4 @@
 """ 
-
     detectar cambios en archivos de una carpeta con python
 
     Para detectar cambios en los archivos de una carpeta con Python, 
@@ -51,8 +50,6 @@
 
         # Esperamos antes de revisar nuevamente
         time.sleep(60)
-        
-        
 """
 
 
