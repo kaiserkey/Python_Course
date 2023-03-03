@@ -22,4 +22,4 @@ for i in range(c):
         B[i][j] = int(input(f"Ingrese un valor para [{i},{j}]: "))
 
 print(f"==== Matriz C de {f}x{cb} ====")
-print(A*B)
+print(A.dot(B))
