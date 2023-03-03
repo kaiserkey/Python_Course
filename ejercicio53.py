@@ -3,4 +3,4 @@
     Se puede transformar cualquier objeto iterable a una lista con la funcion list()
 """
 
-print()
+print(list(range(10)))
