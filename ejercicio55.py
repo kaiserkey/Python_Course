@@ -1,5 +1,7 @@
 """ 
     Realizar la suma de dos matrices de 3x3
+    para poder sumar dos matrices, deben ser del mismo tamaño
+    y el resultado de la resta de dos matrices es una matriz de nxm
 """
 
 A = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
