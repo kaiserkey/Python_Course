@@ -9,5 +9,15 @@ cb = int(input("Ingrese el numero de columnas de la matriz B: "))
 
 A = np.empty((f,c), dtype=int)
 B = np.empty((c,cb), dtype=int)
-C = np.zero((f,cb), dtype=int)
+C = np.zero((f,cb))
+
+print(f"==== Matriz A de {f}x{c} ====")
+for i in range(f):
+    for j in range(c):
+        A[i][j] = int(input(f"Ingrese un valor: "))
+
+print(f"==== Matriz B de {c}x{cb} ====")
+for i in range(c):
+    for j in range(cb):
+        B[i][j] = int(input(f"Ingrese un valor: "))
 
