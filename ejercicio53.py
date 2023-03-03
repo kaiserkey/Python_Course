@@ -1,5 +1,5 @@
 """ 
     conversion a listas
-    Se puede transformar cu
+    Se puede transformar cualquier objeto iterable a una lista c
 """
 
