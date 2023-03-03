@@ -30,5 +30,8 @@ if len(A[0]) == len(B):
             for k in range(n):
                 C[i][j] += A[i][k] * B[k][j]
 
-
+for i in range(m):
+    for j in range(p):
+        print(C[i][j], end=" ")
+    print()
 
