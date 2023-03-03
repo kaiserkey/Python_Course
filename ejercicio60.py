@@ -58,8 +58,13 @@ print(M.shape, "filas y columnas")
 print(M.dtype, "tipo de dato")
 
 # sumar dos matrices
-A = np.matrix([[1,2,3],[4,5,6],[7,8,9]])
-B = np.matrix([[3,5,1],[7,8,4],[4,2,4]])
+A = np.matrix([ [1,2,3],
+                [4,5,6],
+                [7,8,9] ])
+
+B = np.matrix([ [3,5,1],
+                [7,8,4],
+                [4,2,4] ])
 
 print(A+B)
 
