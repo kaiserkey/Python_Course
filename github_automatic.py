@@ -55,7 +55,7 @@ while True:
     countdown(5)  """
 
 
-from github import Github
+""" from github import Github
 import os
 
 myGitHub = Github("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")
@@ -87,7 +87,10 @@ repo = myGitHub.get_repo(selected)
 #print(dir(repo))
 
 contents = repo.get_contents("ejercicio99.py", ref="main")
-repo.update_file(contents.path, "more tests", "more tests", contents.sha, branch="main")
+repo.update_file(contents.path, "more tests", "more tests", contents.sha, branch= "main")"""
+
+import os 
+
 os.system('git add .')
 os.system('git commit -m "more tests"')
 os.system('git push origin main')
