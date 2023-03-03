@@ -23,5 +23,5 @@ if len(A) == len(B) & len(A[0]) == len(B[0]):
 
 for i in range(f):
     for j in range(c):
-        print(C[i][j], end=" ")
+        print(round(C[i][j], 2), end=" ")
     print()
