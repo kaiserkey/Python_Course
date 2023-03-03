@@ -8,4 +8,5 @@ B = [[2, 3, 9], [5, 6, 2], [2, 2, 7]]
 f = len(A)
 c = len(A[0])
 
-if
+if len(A) == len(B) & len(A[0]) == len(B[0]):
+    C = 
