@@ -14,10 +14,14 @@ C = np.zero((f,cb))
 print(f"==== Matriz A de {f}x{c} ====")
 for i in range(f):
     for j in range(c):
-        A[i][j] = int(input(f"Ingrese un valor: "))
+        A[i][j] = int(input(f"Ingrese un valor para [{i},{j}]: "))
 
 print(f"==== Matriz B de {c}x{cb} ====")
 for i in range(c):
     for j in range(cb):
-        B[i][j] = int(input(f"Ingrese un valor: "))
+        B[i][j] = int(input(f"Ingrese un valor para [{i},{j}]: "))
 
+C = A * B
+
+print()
+print(C)
