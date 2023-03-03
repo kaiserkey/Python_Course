@@ -11,8 +11,17 @@
 A = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 B = [[2, 3, 9], [5, 6, 2], [2, 2, 7]]
 
-f = len(A)
-c = len(A[0])
+m = len(A)
+n = len(B)
+p = len(B[0])
+
+if len(A[0]) == len(B):
+    C = [[0 for x in range(p)] for y in range(m)]
+    
+    for i in range(m):
+        for j in range(p):
+            for k in range(n):
+                C[i][j] += A[i][k] * B[k][j]
 
 
 
