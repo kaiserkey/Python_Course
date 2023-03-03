@@ -21,4 +21,7 @@ if len(A) == len(B) & len(A[0]) == len(B[0]):
         for j in range(c):
             C[i][j] = A[i][j] / B[i][j]
 
-for 
+for i in range(f):
+    for j in range(c):
+        print(C[i][j], end=" ")
+    print()
