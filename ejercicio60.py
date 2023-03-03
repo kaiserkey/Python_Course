@@ -69,6 +69,4 @@ B = np.matrix([ [3,5,1],
 print(A+B)
 
 # para multiplicar dos matrices
-print(A*B)
-print()
 print(A.dot(B))
