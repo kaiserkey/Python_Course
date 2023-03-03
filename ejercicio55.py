@@ -9,4 +9,9 @@ f = len(A)
 c = len(A[0])
 
 if len(A) == len(B) & len(A[0]) == len(B[0]):
-    C = 
+    C = [[0 for x in range(c)] for y in range(f)]
+    
+    for i in range(f):
+        for j in range(c):
+            C[i][j] = A[i][j] + B[i][j]
+    print(C)
