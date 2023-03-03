@@ -4,5 +4,5 @@
 
 lista = list(range(1,30, 2))
 
-for index in range(0,30):
-    print(lista[index])
+for index in range(len(lista)):
+    print(f"El indice {index} tiene el valor {lista[index]}")
