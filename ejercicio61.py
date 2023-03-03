@@ -3,11 +3,14 @@
 """
 import numpy as np
 
+f = int(input("Ingrese el numero de filas: "))
+c = int(input("Ingrese el numero de columnas: "))
 
+M = np.empty((f,c), dtype=int)
 
-M = np.empty((4,4), dtype=int)
-
-print("Matriz de 4x4")
-for i in range(len(M)):
-    for j in range(len(M[0])):
+print("==== Matriz de 4x4 ====")
+for i in range(f):
+    for j in range(c):
         M[i][j] = int(input("Ingrese un valor: "))
+
+print
