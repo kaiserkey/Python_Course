@@ -23,7 +23,7 @@ for i in range(len(copy_M)):
         print(copy_M[i][j], end=" ")
     print()
 
-print
+print()
 # crear una matriz nula con los mismos valores de la matriz M
 B_like_M = np.zeros_like(M)
 
