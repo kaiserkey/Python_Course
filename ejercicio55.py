@@ -20,3 +20,4 @@ else:
 for i in range(f):
     for j in range(c):
         print(C[i][j], end=" ")
+    print()
