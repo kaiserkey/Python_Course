@@ -14,4 +14,9 @@ if len(A) == len(B) & len(A[0]) == len(B[0]):
     for i in range(f):
         for j in range(c):
             C[i][j] = A[i][j] + B[i][j]
-    print(C)
+else: 
+    print("Las matrices no son del mismo tamaño")
+    
+for i in range(f):
+    for j in range(c):
+        print(C[i][j], end=" ")
