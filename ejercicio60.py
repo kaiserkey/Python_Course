@@ -57,4 +57,6 @@ print(M.shape, "filas y columnas")
 # para saber el tipo de dato de una matriz
 print(M.dtype, "tipo de dato")
 
-# 
+# sumar dos matrices
+A = np.matrix([[1,2,3],[4,5,6],[7,8,9]])
+B = np.matrix([[3,5,],[4,5,6],[7,8,9]])
