@@ -40,3 +40,15 @@ for i in range(len(E)):
     for j in range(len(E[0])):
         print(E[i][j], end=" ")
     print()
+print()
+
+# crear una matriz de unos con los mismos dimensiones de la matriz M
+E_like_M = np.ones_like(M)
+
+for i in range(len(E_like_M)):
+    for j in range(len(E_like_M[0])):
+        print(E_like_M[i][j], end=" ")
+    print()
+print()
+
+#
