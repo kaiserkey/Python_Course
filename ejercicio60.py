@@ -31,5 +31,12 @@ for i in range(len(B_like_M)):
     for j in range(len(B_like_M[0])):
         print(B_like_M[i][j], end=" ")
     print()
+print()
 
+# crear una matriz de unos 
+E = np.ones((3,3), dtype=int)
 
+for i in range(len(E)):
+    for j in range(len(E[0])):
+        print(E[i][j], end=" ")
+    print()
