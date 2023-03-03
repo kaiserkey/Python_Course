@@ -51,7 +51,6 @@
         # Esperamos antes de revisar nuevamente
         time.sleep(60)
         
-        
 """
 
 
