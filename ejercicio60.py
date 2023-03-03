@@ -70,3 +70,5 @@ print(A+B)
 
 # para multiplicar dos matrices
 print(A*B)
+print()
+print(A.dot(B))
