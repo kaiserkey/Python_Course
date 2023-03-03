@@ -1,3 +1,3 @@
 """ 
-    
+    conversion a listas
 """
