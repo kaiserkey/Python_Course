@@ -8,9 +8,10 @@ c = int(input("Ingrese el numero de columnas: "))
 
 M = np.empty((f,c), dtype=int)
 
-print("==== Matriz de 4x4 ====")
+print(f"==== Matriz de {f}x{c} ====")
 for i in range(f):
     for j in range(c):
         M[i][j] = int(input("Ingrese un valor: "))
 
-print
+print(f"==== Matriz de {f}x{c} ====")
+print(M)
