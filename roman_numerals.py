@@ -2,7 +2,7 @@
     Algoritmo que dado un numero lo exprese en numeros romanos
 """
 
-#Definimos la funcion que nos permitira obtener el numero romano
+#Definimos la funcion que nos permitira obtener el numero ingresado en romano
 def numero_romano(num):
     #Creamos una lista con los simbolos romanos
     romano = ['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I']
