@@ -26,3 +26,17 @@ num = int(input('Ingrese un numero: '))
 
 #Mostramos el resultado
 print(numero_romano(num))
+
+
+diccionario = {'I':1, 'V':5, 'X':10, 'L':50, 'C':100, 'D':500, 'M':1000}
+
+def obtenerRomano(numero):
+    romano = ''
+    for letra, valor in diccionario.items():
+        # Repite la letra el número de veces indicado
+        while numero >= valor:
+            romano += letra
+            numero -= valor
+    return romano
+
+print(obtenerRomano(num)) # Imprime V
