@@ -1,3 +1,7 @@
+""" 
+    Algoritmo que dado un numero lo exprese en numeros romanos
+"""
+
 #Definimos la funcion que nos permitira obtener el numero romano
 
 def numero_romano(num):
