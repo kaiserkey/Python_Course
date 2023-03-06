@@ -14,4 +14,5 @@ for key in courses:
 for key in courses:
     for grade in courses[key]:
         mean = sum(courses[key]) / len(courses[key])
-    print(f"El promedio en {key} es )
+    print(f"El promedio en {key} es {mean:.2f}")
+    
