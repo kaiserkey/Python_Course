@@ -7,4 +7,5 @@
 courses = { "Math": [], "English": [], "History": [], "Geography": [], "Biology": [] }
 
 for key in courses:
-    for 
+    for i in key:
+        grade = float(input("INgresa "))
