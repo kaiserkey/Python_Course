@@ -8,10 +8,10 @@
 
 print("Introduce 8 numeros del 0 al 9 para calcular tu letra del DNI")
 numeros = []
-for i in range(8):
+for _ in range(8):
     numeros.append(int(input("-> ")))
 
 dni = 0
 for i in range(len(numeros)):
-    dni += numeros[i] * (i + 2)
+    dni += 10 ** (len[numeros] - i - 1) * numeros[i]
 
