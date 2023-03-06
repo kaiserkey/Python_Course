@@ -13,3 +13,4 @@ dicc_copy = dicc.copy()
 print(dicc_copy)
 
 # el metodo fromkeys() crea un nuevo diccionario con las claves especificadas y el valor especificado
+dicc = dict.fromkeys(["animal", "edad", "raza"], "desconocido")
