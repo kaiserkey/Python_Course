@@ -7,5 +7,8 @@
 courses = { "Math": [], "English": [], "History": [], "Geography": [], "Biology": [] }
 
 for key in courses:
-    for i in key:
+    for i in range(3):
         grade = float(input("Ingresa la nota de " + key + ": "))
+        key.append(grade)
+
+print(courses)
