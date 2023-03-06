@@ -11,4 +11,5 @@ for key in courses:
         grade = float(input("Ingresa la nota de " + key + ": "))
         courses[key].append(grade)
 
-print(courses)
+for key in courses:
+    for mean in courses[key]
