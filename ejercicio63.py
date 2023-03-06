@@ -3,3 +3,6 @@
 """
 
 myDiccionary = { "nombre": "Juan", "apellido": "Perez", "edad": 25, "cursos": ["Python", "Django", "JavaScript"] }
+
+print()
+print(myDiccionary["cursos"])
