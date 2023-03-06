@@ -12,4 +12,5 @@ for key in courses:
         courses[key].append(grade)
 
 for key in courses:
-    for mean in courses[key]
+    for grade in courses[key]:
+        mean = sum(courses[key]) / len(courses[key])
