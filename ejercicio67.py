@@ -38,3 +38,6 @@ dicc2 = { "animal": "gato", "edad": 3, "raza": "persa", "color": "negro" }
 dicc1.update(dicc2)
 print(dicc1)
 
+# el metodo setdefault() devuelve el valor de la clave especificada. Si la clave no existe, inserta la clave con el valor especificado.
+
+dicc1.setdefault("peso", 10)")
