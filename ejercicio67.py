@@ -26,6 +26,4 @@ print(dicc) # {'animal': 'desconocido', 'edad': 'desconocido', 'raza': 'desconoc
 print(dicc.pop("animal")) # desconocido
 print(dicc) # {'edad': 'desconocido', 'raza': 'desconocido'}
 
-# el metodo add() agrega un elemento al diccionario
-print(dicc) # {'edad': 'desconocido', 'raza': 'desconocido'}
-dicc.add()
+# el metodo update() actualiza el diccionario con los elementos del diccionario especificado
