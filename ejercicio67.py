@@ -40,4 +40,5 @@ print(dicc1)
 
 # el metodo setdefault() devuelve el valor de la clave especificada. Si la clave no existe, inserta la clave con el valor especificado.
 
-dicc1.setdefault("peso", 10)")
+dicc1.setdefault("peso", 10)
+print(dicc1)
