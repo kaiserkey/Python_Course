@@ -7,3 +7,6 @@ dicc = { "animal": "perro", "edad": 5, "raza": "pastor aleman" }
 
 for key in dicc:
     print(key, ":", dicc[key])
+
+# Podemos usar la funcion items() para obtener los pares clave-valor
+print( dicc.items() )
