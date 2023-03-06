@@ -21,4 +21,4 @@ print(dicc)
 print(dicc.get("animal")) # desconocido
 print(dicc.get("color")) # None
 
-# 
+# el metodo pop() elimina el elemento con la clave especificada y devuelve su valor
