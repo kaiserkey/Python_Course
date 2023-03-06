@@ -14,7 +14,7 @@ for _ in range(8):
 dni = 0
 for i in range(len(numeros)):
     # calculamos el DNI con los numeros introducidos por el usuario
-    dni += 10 ** (len[numeros] - i - 1) * numeros[i]
+    dni += 10 ** (len(numeros) - i - 1) * numeros[i]
 
 letras = { 0: "T", 1: "R", 2: "W", 3: "A", 
             4: "G", 5: "M", 6: "Y", 7: "F", 
@@ -29,4 +29,4 @@ letra = letras[dni % 23]
 # creamos el diccionario con los numeros y la letra del DNI
 DNI = { "numeros": numeros, "letra": letra }
 
-print
+print(DNI)
