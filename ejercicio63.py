@@ -9,13 +9,13 @@
     de datos en Python.
 """
 
-myDiccionary = { "nombre": "Juan", "apellido": "Perez", "edad": 25, "cursos": ["Python", "Django", "JavaScript"] }
+myDictionary = { "nombre": "Juan", "apellido": "Perez", "edad": 25, "cursos": ["Python", "Django", "JavaScript"] }
 
-print(myDiccionary)
-print(myDiccionary["cursos"])
+print(myDictionary)
+print(myDictionary["cursos"])
 
 # Se puede convertir un iterable en un diccionario con la funcion dict()
 
-dicc = dict([("nombre", "Juan"), ("apellido", "Perez"), ("edad", 25), ("cursos", ["Python", "Django", "JavaScript"])])
+dict = dict([("nombre", "Juan"), ("apellido", "Perez"), ("edad", 25), ("cursos", ["Python", "Django", "JavaScript"])])
 
-print(dicc)
+print(dict)
