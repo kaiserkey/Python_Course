@@ -17,3 +17,6 @@ print(dicc_copy)
 dicc = dict.fromkeys(["animal", "edad", "raza"], "desconocido")
 print(dicc)
 
+# el metodo get() devuelve el valor de la clave especificada
+print(dicc.get("animal"))
+
