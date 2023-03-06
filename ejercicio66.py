@@ -1,4 +1,5 @@
 """ 
     Tenemos un diccionario con 5 claves: Math, English, History, Geography, Biology. Cada clave
-    contiene una lista con 3 notas. El valor de cada clave es la media de las notas de la lista.
+    contiene una lista con 3 notas. EL usuario debe introducir cada nota por teclado y luego para cada clave
+    se debe mostrar la media
 """
