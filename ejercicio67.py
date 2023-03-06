@@ -33,4 +33,8 @@ print(dicc) # {'edad': 'desconocido', 'raza': 'desconocido'}
 
 
 dicc1 = { "animal": "perro", "edad": 5, "raza": "pastor aleman" }
-dicc2 = { "animal": "gato" }
+dicc2 = { "animal": "gato", "edad": 3, "raza": "persa", "color": "negro" }
+
+dicc1.update(dicc2)
+
+print(dicc1)
