@@ -9,4 +9,5 @@
 print("Introduce 8 numeros del 0 al 9 para calcular tu letra del DNI")
 numeros = []
 for i in range(8):
-    numeros.append(int(input("Introduce el numero {}: ".format(i+1))))
+    numeros.append(int(input("-> ")))
+
