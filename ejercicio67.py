@@ -26,4 +26,6 @@ print(dicc) # {'animal': 'desconocido', 'edad': 'desconocido', 'raza': 'desconoc
 print(dicc.pop("animal")) # desconocido
 print(dicc) # {'edad': 'desconocido', 'raza': 'desconocido'}
 
-# el metodo update() actualiza el diccionario con los elementos del diccionario especificado
+# el metodo update() actualiza el diccionario con los elementos del diccionario especificado 
+# o con los pares clave-valor especificados. Si una clave ya existe, se actualiza su valor. 
+# 
