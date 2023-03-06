@@ -11,3 +11,7 @@ numeros = []
 for i in range(8):
     numeros.append(int(input("-> ")))
 
+dni = 0
+for i in range(len(numeros)):
+    dni += numeros[i] * (i + 2)
+
