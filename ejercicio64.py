@@ -23,7 +23,7 @@ letras = { 0: "T", 1: "R", 2: "W", 3: "A",
             16: "Q", 17: "V", 18: "H", 19: "L", 
             20: "C", 21: "K", 22: "E" }
 
-# calculamos el resto de la division entre el DNI y 23
+# calculamos el resto de la division entre el DNI y 23 para obtener la letra
 letra = letras[dni % 23]
 
 # creamos el diccionario con los numeros y la letra del DNI
