@@ -13,6 +13,7 @@ for _ in range(8):
 
 dni = 0
 for i in range(len(numeros)):
-    # calculamos el DNI con los numeros introducidos por el usuario y lo guardamos en la variable dni
+    # calculamos el DNI con los numeros introducidos por el usuario
     dni += 10 ** (len[numeros] - i - 1) * numeros[i]
-
+    # este calculo es equivalente a:
+    
