@@ -10,3 +10,7 @@ for key in dicc:
 
 # Podemos usar la funcion items() para obtener los pares clave-valor
 print( dicc.items() )
+
+# con esta funcion podemos recorrer el diccionario con un bucle for y obtener los pares clave-valor
+for key, value in dicc.items():
+    print(key, ":", value)
