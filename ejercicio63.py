@@ -20,7 +20,6 @@ dict1 = dict([("nombre", "Juan"), ("apellido", "Perez"), ("edad", 25), ("cursos"
 
 print(dict1)
 
-dict2 = dict(("x", 3), ("y", 4), 
-             "z", 5], x1=33, y1=44, z1=55)
+dict2 = dict([("x", 3), ("y", 4), ("z", 5)], x1=33, y1=44, z1=55)
 
 print(dict2)
