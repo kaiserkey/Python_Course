@@ -20,3 +20,4 @@ dict = dict([("nombre", "Juan"), ("apellido", "Perez"), ("edad", 25), ("cursos",
 
 print(dict)
 
+dict2 = dict(["x", 3], ["y", 4], ["z", 5], 3)
