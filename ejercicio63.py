@@ -15,7 +15,8 @@ print(myDictionary)
 print(myDictionary["cursos"])
 
 # Se puede convertir un iterable en un diccionario con la funcion dict()
-
+# Debe tener un formato de clave-valor
 dict = dict([("nombre", "Juan"), ("apellido", "Perez"), ("edad", 25), ("cursos", ["Python", "Django", "JavaScript"])])
 
 print(dict)
+
