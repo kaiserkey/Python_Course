@@ -28,4 +28,9 @@ print(dicc) # {'edad': 'desconocido', 'raza': 'desconocido'}
 
 # el metodo update() actualiza el diccionario con los elementos del diccionario especificado 
 # o con los pares clave-valor especificados. Si una clave ya existe, se actualiza su valor. 
-# 
+# Si no existe, se crea una nueva clave con el valor especificado y se agrega al diccionario.
+# Si se especifica un diccionario, se actualizan las claves del diccionario actual con los valores del diccionario especificado.
+
+
+dicc1 = { "animal": "perro", "edad": 5, "raza": "pastor aleman" }
+dicc2 = { "animal": "gato" }
