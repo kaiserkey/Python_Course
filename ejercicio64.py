@@ -24,4 +24,4 @@ letras = { 0: "T", 1: "R", 2: "W", 3: "A",
             20: "C", 21: "K", 22: "E" }
 
 # calculamos el resto de la division entre el DNI y 23
-    
+letra = dni % 23
