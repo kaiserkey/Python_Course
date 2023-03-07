@@ -4,12 +4,14 @@
 
 myString = input("Ingrese una frase: ")
 
-chars = list(myString)
+chars = list(myString.upper())
 dicc = {}
 
-for char in myString:
+for char in chars:
     if char not in dicc:
         dicc[char] = 1
     else:
         dicc[char] += 1
+        
+print(myString.upper())
 print(dicc)
