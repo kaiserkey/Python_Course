@@ -21,4 +21,6 @@ print(myDictionary.get("pais"))
 for key, value in myDictionary.items():
     print(f"Clave: {key} -> {value}")
 
-#
+#5.  Eliminar el elemento con la clave 'edad' del diccionario.
+
+myDictionary.pop("edad")
