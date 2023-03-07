@@ -10,4 +10,10 @@ myDictionary =  {
 
 #2.  Agregar un nuevo elemento al diccionario creado en el ejercicio anterior con la clave 'color_favorito' y el valor 'azul'.
 
-myDictionary
+myDictionary.setdefault("color_favorito", "azul")
+
+#3.  Imprimir el valor de la clave 'pais'.
+
+print(myDictionary.get("pais"))
+
+#
