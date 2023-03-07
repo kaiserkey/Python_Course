@@ -25,4 +25,10 @@ for key, items in myDictionary.items():
 
 myDictionary.setdefault("equipo4", { "nombre": "Manchester United", "ciudad": "Manchester" })
 
-#
+# 9.  Imprimir el valor de la clave 'nombre' del equipo2.
+
+print(myDictionary.get("equipo2").get("nombre"))
+
+# 10.  Eliminar el elemento con la clave 'equipo3' del diccionario.
+
+myDictionary.pop("equipo3")
