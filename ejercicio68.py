@@ -8,7 +8,7 @@ chars = list(myString.upper())
 dicc = {}
 
 for char in chars:
-    if char not in dicc and char != " ":
+    if char not in dicc and char != ' ':
         dicc[char] = 1
     else:
         dicc[char] += 1
