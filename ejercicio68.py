@@ -4,7 +4,9 @@
 
 myString = input("Ingrese una frase: ")
 
-
+chars = list(myString)
+dicc = {}
 
 for char in myString:
-    if char not in 
+    if char in dicc:
+        dicc[char] = 1
