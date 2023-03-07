@@ -16,4 +16,9 @@ myDictionary.setdefault("color_favorito", "azul")
 
 print(myDictionary.get("pais"))
 
+#4.  Recorrer todos los elementos del diccionario creado en el ejercicio 1 imprimiendo cada elemento.
+
+for key, value in myDictionary.items():
+    print(f"Clave: {key} -> {value}")
+
 #
