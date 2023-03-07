@@ -16,4 +16,7 @@ myDictionary =  {
 
 #7.  Recorrer todos los elementos del diccionario creado en el ejercicio 6 imprimiendo cada elemento.
 
-for 
+for key, value in myDictionary.items():
+    print(f"Clave: {key}")
+    for value in value.items():
+        print(f"Clave: {value[0]} -> {value[1]}")
