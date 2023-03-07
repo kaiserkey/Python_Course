@@ -20,3 +20,9 @@ for key, items in myDictionary.items():
     print(f"Clave: {key}", end=" -> ")
     for items, value in items.items():
         print(f"Clave: {items} -> {value}")
+
+# 8.  Agregar un nuevo elemento al diccionario creado en el ejercicio 6 con la clave 'equipo4' y los valores 'nombre' y 'ciudad' de tu equipo de fútbol favorito.
+
+myDictionary.setdefault("equipo4", { "nombre": "Manchester United", "ciudad": "Manchester" })
+
+#
