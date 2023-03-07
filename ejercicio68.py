@@ -8,5 +8,8 @@ chars = list(myString)
 dicc = {}
 
 for char in myString:
-    if char in dicc:
+    if char not in dicc:
         dicc[char] = 1
+    else:
+        dicc[char] += 1
+print(dicc)
