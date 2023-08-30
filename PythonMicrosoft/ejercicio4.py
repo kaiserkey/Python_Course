@@ -1,4 +1,5 @@
 from datetime import *
 from dateutil.relativedelta import *
 
-now 
+now = datetime.now()
+print(now)
