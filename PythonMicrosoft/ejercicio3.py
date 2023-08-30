@@ -9,3 +9,5 @@ print(sys.argv[1]) # first arg
 print("Welcome to the greeter program")
 name = input("Enter your name: ")
 print("Greetings " + name)
+
+
